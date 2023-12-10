@@ -1,0 +1,54 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&family=Poppins:wght@100;300;400&display=swap";
+@tailwind base;
+body {
+  @apply bg-black text-white leading-loose;
+  font-family: "Poppins", "Noto Sans JP", "serif";
+}
+
+a {
+  @apply text-white hover:text-pink01 transition duration-300 ease-in-out;
+}
+
+@tailwind components;
+.ly-header {
+  @apply bg-black py-10px w-full;
+}
+.ly-header li {
+  @apply px-5px;
+}
+
+.c-container {
+  @apply md:px-30px px-15px max-w-6xl mx-auto;
+  max-width: 1260px;
+}
+
+.c-img-wrap {
+  @apply relative overflow-hidden;
+}
+
+.c-img-inner {
+  @apply w-full h-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+.c-img-inner .cover {
+  @apply object-cover;
+}
+.c-img-inner .contain {
+  @apply object-contain;
+}
+
+.c-position-center {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+
+@tailwind utilities;
+.u-neon-text-pink01 {
+  text-shadow: 0 0 7px #fff, 0 0 10px #f0a, 0 0 21px #f0a, 0 0 42px #f0a, 0 0 82px #f0a, 0 0 92px #f0a, 0 0 102px #f0a, 0 0 151px #f0a;
+}
+
+.u-neon-text-pink01_narrow {
+  text-shadow: 0 0 2px #fff, 0 0 10px #f0a, 0 0 21px #f0a, 0 0 42px #f0a, 0 0 82px #f0a, 0 0 92px #f0a, 0 0 102px #f0a, 0 0 151px #f0a;
+}
+
+.u-neon-border-pink01 {
+  box-shadow: 0 0 5px #fff, 0 0 10px #f0a;
+}/*# sourceMappingURL=tailwind.css.map */
