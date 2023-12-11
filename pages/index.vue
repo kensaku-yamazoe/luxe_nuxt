@@ -14,7 +14,7 @@
       </div>
     </section>
 
-    <section class="lg:pt-60px pb-60px">
+    <section class="lg:pt-60px pb-60px bg-gray00">
       <div class="c-container">
         <div class="flex lg:flex-row flex-col-reverse items-center lg:max-h-600px">
           <div class="lg:w-1/2 w-full lg:h-full h-300px overflow-hidden">
@@ -22,7 +22,7 @@
           </div>
           <div class="lg:w-1/2 w-full lg:px-40px lg:py-0 py-30px">
             <Headline title="About" subtitle="概要" />
-            <p class="text-sm text-gray03">
+            <p class="md:text-lg text-sm text-gray03">
               概要が入ります。ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト。<br />
               ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト。
             </p>
@@ -32,11 +32,14 @@
       </div>
     </section>
 
-    <section class="lg:pt-60px pb-60px bg-gray00">
-      <div class="c-container">
+    <section class="lg:pt-60px pb-60px c-img-wrap">
+      <img src="~/assets/image/bg-price.png" alt="" class="c-img-inner cover z-0" />
+      <div class="c-img-inner bg-tr_black80 z-10" />
+
+      <div class="c-container relative z-20">
         <div class="w-full lg:px-40px lg:py-0 py-30px">
           <Headline title="Price" subtitle="価格" />
-          <p class="text-sm text-gray03">価格一覧が入ります。代表的なものだけで、他の項目は詳細ページで見せる形でいいと思います。</p>
+          <p class="md:text-lg text-sm text-gray03">価格一覧が入ります。代表的なものだけで、他の項目は詳細ページで見せる形でいいと思います。</p>
           <TextLink class="ml-auto mr-0" label="more" to="/price" />
         </div>
 
@@ -82,20 +85,18 @@
       ></iframe>
     </section>
 
-    <section class="lg:pt-60px pb-60px">
-      <div class="c-container">
-        <div class="flex lg:flex-row flex-col-reverse items-center lg:max-h-600px">
-          <div class="lg:w-1/2 w-full lg:h-full h-300px overflow-hidden">
-            <img src="https://picsum.photos/1000/1000" alt="" class="h-full w-full object-cover" />
-          </div>
-          <div class="lg:w-1/2 w-full lg:px-40px lg:py-0 py-30px">
-            <Headline title="Recruit" subtitle="求人情報" />
-            <p class="text-sm text-gray03">
-              求人情報のテキストが入ります。ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト。<br />
-              ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト。
-            </p>
-            <TextLink class="ml-auto mr-0" label="more" to="/recruit" />
-          </div>
+    <section class="lg:pt-60px pb-60px c-img-wrap">
+      <img src="~/assets/image/img-shampan.png" alt="" class="c-img-inner cover z-0" />
+      <div class="c-img-inner bg-tr_black80 z-10" />
+
+      <div class="c-container relative z-20">
+        <div class="lg:max-h-600px">
+          <Headline title="Recruit" subtitle="求人情報" />
+          <p class="md:text-lg text-sm text-gray03">
+            求人情報のテキストが入ります。ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト。<br />
+            ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト。
+          </p>
+          <TextLink class="ml-auto mr-0" label="more" to="/recruit" />
         </div>
       </div>
     </section>
