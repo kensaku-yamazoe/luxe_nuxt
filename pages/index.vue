@@ -40,28 +40,30 @@
           <TextLink class="ml-auto mr-0" label="more" to="/price" />
         </div>
 
-        <div class="w-full max-w-600px mx-auto mt-12 border border-solid border-white rounded-xl u-neon-border-pink01 py-20px">
-          <div class="flex items-center justify-center">
-            <p class="text-right md:text-4xl text-3xl u-neon-text-pink01 py-10px px-30px flex-1">Menu</p>
-            <p class="text-left md:text-4xl text-3xl u-neon-text-pink01 py-10px px-30px flex-1">Price</p>
-          </div>
-          <div class="flex items-center justify-center">
-            <p class="text-right md:text-3xl text-2xl u-neon-text-pink01 py-10px px-30px flex-1">charge</p>
-            <p class="text-left md:text-3xl text-2xl u-neon-text-pink01 py-10px px-30px flex-1">¥ 0,000</p>
-          </div>
-          <div class="flex items-center justify-center">
-            <p class="text-right md:text-3xl text-2xl u-neon-text-pink01 py-10px px-30px flex-1">1 drink</p>
-            <p class="text-left md:text-3xl text-2xl u-neon-text-pink01 py-10px px-30px flex-1">¥ 0,000</p>
-          </div>
-          <div class="flex items-center justify-center">
-            <p class="text-right md:text-3xl text-2xl u-neon-text-pink01 py-10px px-30px flex-1">1 hour</p>
-            <p class="text-left md:text-3xl text-2xl u-neon-text-pink01 py-10px px-30px flex-1">¥ 00,000</p>
-          </div>
-          <div class="flex items-center justify-center">
-            <p class="text-right md:text-3xl text-2xl u-neon-text-pink01 py-10px px-30px flex-1">1 bottle</p>
-            <p class="text-left md:text-3xl text-2xl u-neon-text-pink01 py-10px px-30px flex-1">¥ 00,000</p>
-          </div>
-        </div>
+        <section class="c-container">
+          <ul class="u-price-list u-neon-border-pink01">
+            <li>
+              <p class="u-neon-text-pink01">Menu</p>
+              <p class="u-neon-text-pink01">Price</p>
+            </li>
+            <li>
+              <p class="u-neon-text-pink01">charge</p>
+              <p class="u-neon-text-pink01">¥ 0,000</p>
+            </li>
+            <li>
+              <p class="u-neon-text-pink01">1 drink</p>
+              <p class="u-neon-text-pink01">¥ 0,000</p>
+            </li>
+            <li>
+              <p class="u-neon-text-pink01">1 hour</p>
+              <p class="u-neon-text-pink01">¥ 00,000</p>
+            </li>
+            <li>
+              <p class="u-neon-text-pink01">1 bottle</p>
+              <p class="u-neon-text-pink01">¥ 00,000</p>
+            </li>
+          </ul>
+        </section>
       </div>
     </section>
 

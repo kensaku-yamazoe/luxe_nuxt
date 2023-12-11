@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="md:py-60px py-40px">
     <Headline title="Access" subtitle="アクセス" usePage />
     <section class="c-container pb-40px">
       <p class="md:text-lg text-sm text-gray03">〒526-0054<br />滋賀県長浜市大宮町２−２</p>

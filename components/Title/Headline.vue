@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-4">
+  <div class="md:mb-60px mb-40px">
     <template v-if="usePage">
       <h1 class="text-center text-8xl font-thin u-neon-text-pink01 leading-tight">{{ title }}</h1>
       <p class="before-line pages font-thin u-neon-text-pink01_narrow">{{ subtitle }}</p>
