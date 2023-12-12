@@ -1,8 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+// `DEPLOY_ENV` が `GH_PAGES` の場合のみ `router.base = '/<repository-name>/'` を追加する
 export default {
-  router: {
-    base: "/<repository-name>/",
-  },
   devtools: { enabled: true },
 
   css: ["~/assets/css/tailwind.css"],
