@@ -19,7 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 .u-link {
-  @apply text-lg font-thin transition duration-300 ease-in-out underline w-fit block;
+  @apply text-lg font-thin underline w-fit block;
 }
 </style>
 

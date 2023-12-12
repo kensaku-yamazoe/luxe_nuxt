@@ -53,15 +53,20 @@ export default {
         "30px": "30px",
         "50px": "50px",
         "80px": "80px",
+        "200px": "200px",
       },
       maxWidth: {
         "600px": "600px",
       },
       height: {
         full: "100%",
+        screen: "100vh",
         "1px": "1px",
         "20px": "20px",
         "30px": "30px",
+        "40px": "40px",
+        "50px": "50px",
+        "60px": "60px",
         "300px": "300px",
         "80vh": "80vh",
       },
@@ -83,6 +88,7 @@ export default {
         "100px": "100px",
       },
       padding: {
+        full: "100%",
         "5px": "5px",
         "10px": "10px",
         "15px": "15px",

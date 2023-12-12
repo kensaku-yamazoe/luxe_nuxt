@@ -17,6 +17,10 @@ a {
   @apply px-5px;
 }
 
+.c-main-content {
+  min-height: calc(100vh - 60px - 221px);
+}
+
 .c-container {
   @apply md:px-30px px-15px max-w-6xl mx-auto;
   max-width: 1260px;
@@ -55,11 +59,27 @@ a {
   box-shadow: 0 0 5px #fff, 0 0 10px #f0a;
 }
 
+.u-neon-svg-pink01 {
+  filter: drop-shadow(0 0 5px #f0a);
+}
+
+.u-neon-svg-gold01 {
+  filter: drop-shadow(0 0 5px rgb(255, 247, 0));
+}
+
+.u-logo img {
+  @apply transition duration-300 ease-in-out;
+  fill: #fff;
+}
+.u-logo img:hover {
+  filter: drop-shadow(0 0 5px #f0a);
+}
+
 .u-price-list {
   @apply w-full max-w-600px mx-auto mt-12 border border-solid border-white rounded-xl py-20px;
 }
 .u-price-list li {
-  @apply flex items-center justify-center;
+  @apply flex items-center justify-center p-0;
 }
 .u-price-list li p {
   @apply md:text-3xl text-2xl py-10px px-30px flex-1;
@@ -69,7 +89,4 @@ a {
 }
 .u-price-list li p:last-child {
   @apply text-left;
-}
-.u-price-list li:first-child {
-  @apply md:text-4xl text-3xl py-10px px-30px flex-1;
 }/*# sourceMappingURL=tailwind.css.map */
